@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday, Beautiful! 💖</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-content" data-aos="fade-up" data-aos-duration="1000">
+            <h1 class="hero-title">Happy Birthday, <span class="highlight">Sarah</span>! 💖</h1>
+            <p class="hero-subtitle">To the most amazing software engineer and the love of my life</p>
+            <button class="confetti-btn" onclick="launchConfetti()">🎉 Celebrate! 🎉</button>
+        </div>
+        <div class="floating-hearts">
+            <div class="heart">💖</div>
+            <div class="heart">💕</div>
+            <div class="heart">💗</div>
+            <div class="heart">💝</div>
+            <div class="heart">💖</div>
+        </div>
+    </section>
+
+    <!-- Countdown Timer -->
+    <section class="countdown-section" id="countdown">
+        <div class="container">
+            <h2 data-aos="fade-up">Time Until Your Special Day!</h2>
+            <div class="countdown-timer" data-aos="zoom-in" data-aos-delay="200">
+                <div class="countdown-item">
+                    <span class="countdown-number" id="days">00</span>
+                    <span class="countdown-label">Days</span>
+                </div>
+                <div class="countdown-item">
+                    <span class="countdown-number" id="hours">00</span>
+                    <span class="countdown-label">Hours</span>
+                </div>
+                <div class="countdown-item">
+                    <span class="countdown-number" id="minutes">00</span>
+                    <span class="countdown-label">Minutes</span>
+                </div>
+                <div class="countdown-item">
+                    <span class="countdown-number" id="seconds">00</span>
+                    <span class="countdown-label">Seconds</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Photo Gallery -->
+    <section class="gallery-section" id="gallery">
+        <div class="container">
+            <h2 data-aos="fade-up">Our Beautiful Memories 📸</h2>
+            <div class="gallery-grid" data-aos="fade-up" data-aos-delay="200">
+                <div class="gallery-item">
+                    <img src="images/photo1.jpg" alt="Our memory 1" onerror="this.src='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzAwIiBoZWlnaHQ9IjMwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMzAwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2ZmZTRlNiIvPjx0ZXh0IHg9IjE1MCIgeT0iMTUwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkeT0iLjNlbSIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTgiIGZpbGw9IiNmZjY5OTQiPkFkZCBZb3VyIFBob3RvIDEg8J+YjDwvdGV4dD48L3N2Zz4='">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/photo2.jpg" alt="Our memory 2" onerror="this.src='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzAwIiBoZWlnaHQ9IjMwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMzAwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2ZmZTRlNiIvPjx0ZXh0IHg9IjE1MCIgeT0iMTUwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkeT0iLjNlbSIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTgiIGZpbGw9IiNmZjY5OTQiPkFkZCBZb3VyIFBob3RvIDIg8J+YjDwvdGV4dD48L3N2Zz4='">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/photo3.jpg" alt="Our memory 3" onerror="this.src='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzAwIiBoZWlnaHQ9IjMwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMzAwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2ZmZTRlNiIvPjx0ZXh0IHg9IjE1MCIgeT0iMTUwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkeT0iLjNlbSIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTgiIGZpbGw9IiNmZjY5OTQiPkFkZCBZb3VyIFBob3RvIDMg8J+YjDwvdGV4dD48L3N2Zz4='">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/photo4.jpg" alt="Our memory 4" onerror="this.src='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzAwIiBoZWlnaHQ9IjMwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMzAwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iI2ZmZTRlNiIvPjx0ZXh0IHg9IjE1MCIgeT0iMTUwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkeT0iLjNlbSIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTgiIGZpbGw9IiNmZjY5OTQiPkFkZCBZb3VyIFBob3RvIDQg8J+YjDwvdGV4dD48L3N2Zz4='">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reasons I Love You -->
+    <section class="reasons-section" id="reasons">
+        <div class="container">
+            <h2 data-aos="fade-up">Reasons Why I Love You 💕</h2>
+            <div class="reasons-content" data-aos="fade-up" data-aos-delay="200">
+                <div class="reason-display" id="reasonDisplay">
+                    <p>Click the button below to see why you're so special to me...</p>
+                </div>
+                <button class="reason-btn" id="reasonBtn" onclick="showNextReason()">
+                    💖 Show Me Love 💖
+                </button>
+                <div class="reason-counter">
+                    <span id="reasonCount">0</span> of <span id="totalReasons">15</span> reasons revealed
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Closing Note -->
+    <section class="closing-section" id="closing">
+        <div class="container">
+            <div class="closing-content" data-aos="fade-up">
+                <div class="animated-heart">💖</div>
+                <h2>My Dearest Love</h2>
+                <p class="closing-text">
+                    Happy birthday to the most incredible woman I know! You're not just an amazing software engineer who inspires me every day with your brilliance and problem-solving skills, but you're also the most caring, beautiful, and wonderful person I've ever met. Your code is elegant, but your heart is even more beautiful. I'm so grateful to have you in my life, and I can't wait to celebrate many more birthdays together. Here's to another year of your amazing existence! 🎉💖
+                </p>
+                <p class="signature">With all my love,<br>Your devoted boyfriend 💕</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
