@@ -6,7 +6,7 @@ AOS.init({
 });
 
 // Birthday date - CHANGE THIS TO HER ACTUAL BIRTHDAY
-const birthdayDate = new Date('2024-12-25 00:00:00').getTime(); // YYYY-MM-DD format
+const birthdayDate = new Date('2025-07-03 00:00:00').getTime(); // YYYY-MM-DD format
 
 // Countdown Timer
 function updateCountdown() {
