@@ -66,22 +66,22 @@ function launchConfetti() {
     }, 400);
 }
 
-// Reasons I Love You - CUSTOMIZE THESE MESSAGES
+// Reasons I Love You
 const reasons = [
-    "You light up my world with your beautiful smile every single day 😊",
-    "Your brilliant mind amazes me - you solve problems like a coding wizard! 🧙‍♀️",
-    "You have the kindest heart and always care for others 💕",
-    "Your laugh is my favorite sound in the entire universe 😄",
-    "You make even the simplest moments feel magical ✨",
-    "Your passion for technology and learning inspires me daily 💻",
-    "You're incredibly strong and overcome every challenge with grace 💪",
+    "You light me up with your beautiful smile every single day 😊",
+    "You are very smart and hardworking and always inspire me 🧙‍♀️",
+    "You have the kindest heart and always care for me 💕",
+    "Your laugh is my favorite thing in the entire universe 😄",
+    "Even simplest moments feel special with you ✨",
+    "Your dedication for work and learning inspires me daily 💻",
+    "You're incredibly strong 💪",
     "Your hugs feel like home - warm, safe, and perfect 🤗",
-    "You believe in me even when I don't believe in myself 🌟",
-    "Your intelligence and wit keep me on my toes in the best way 🤓",
+    "You have innocent and cute smile😊",
+    "Time with you makes me feel home, safe and comforting 🤗",
     "You make me want to be a better person every single day 🌱",
-    "Your dedication to your craft as a software engineer is incredible 👩‍💻",
-    "You have this amazing ability to make everything better just by being there 🌈",
-    "Your eyes sparkle when you talk about things you're passionate about ✨",
+    "You are the most beautiful girl I know💕",
+    "You are always honest and raw with me 🌈",
+    "You are always loyal to me ✨",
     "You're not just my girlfriend, you're my best friend and my everything 💖"
 ];
 
